@@ -83,6 +83,9 @@ public class WikiBot extends TelegramLongPollingBot {
         return "No result found.";
     }
 
+
+
+
     private void sendInlineKeyboard(Long chatId, String query) {
         SendMessage message = new SendMessage();
         message.setChatId(chatId.toString());
